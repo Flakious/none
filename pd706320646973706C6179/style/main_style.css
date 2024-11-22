@@ -1,0 +1,227 @@
+*{
+    box-sizing:content-box;
+}
+
+body {
+                    
+    font-family: courier;
+    color: lime;
+    background-color: black;
+    width: 100%; 
+}
+@media screen and (max-width: 500px){
+    li.menu{
+        padding: 100px;
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+.backgroundbanner{
+    background: url(web\ banner.png) no-repeat center;
+
+}
+img.banner{
+    margin: 0;
+    align-content: center;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(22, 22, 22);
+}
+.flaky{
+    width: 100%;
+    height: 80px;
+    padding-top: 14px;
+    font-family: helvetica;
+    letter-spacing: 1px;
+    font-size: 46px;
+    border-radius: 3px;
+    color: white;
+    
+}
+#dflogo{
+    float: right;
+    width: 100px;
+    height: 75px;
+    margin-right: 1em;
+    padding: 0;
+}
+/*Menus*/
+li.menu{
+    background-color: black;
+    float: left;
+    border-top: solid 2px white;
+
+}
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    overflow: none;
+    margin: 0;
+    margin-top: 0;
+    
+}
+/*general*/
+li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 8px 20px;
+    margin-top: 2px;
+    border-radius: 1px;
+    
+}
+li a:hover {
+    color: black;
+    background-color: white;
+}
+li a:active{
+    color: lime;
+    background-color: gray;
+}
+li a.current{
+    background-color: rgb(129, 129, 129);
+    color: black;
+}
+/**/
+/*other*/
+li a.other{
+    background-color: black;
+    color: white;
+    font-size: 200px;
+    padding: 5px;
+    border-top: solid 2px white;
+    border-radius: 3px;
+    display: flex;
+    margin: 0;
+    z-index: 2;
+    
+}
+li .other:hover{
+    color: black;
+    background-color: white;
+}
+i.fa-solid{
+    font-size: 300px;
+}
+li .other:active{
+    background-color: gray;
+    color: rgb(54, 54, 54);
+}
+/**/
+.dropdown{
+    display: none;
+    position: relative;
+    z-index: 2;
+    background-color: black;
+
+}
+.menu:hover .dropdown{
+    display: flex;
+    min-width: 10px;
+}
+ul.menu-def{
+    list-style-type: none;
+    padding: 0;
+    overflow: none;
+    margin: 0;
+}
+/*Menus*/
+
+/*article*/
+.article{
+    margin: auto;
+    margin-top: 54px;
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 30px;
+    
+}
+.titlediv{
+
+    margin-top: 100px;
+    background-color: rgb(83, 83, 83);
+    display: flexbox;
+    border-radius: 3px;
+    padding: 2px 75px;
+    margin: 10px 30px;
+    color: white;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border-bottom: 1.7px solid rgb(44, 44, 44);
+}
+.title{
+    padding: 0px 75px;
+    text-align: center;
+    color: white; 
+
+}
+.subtitle{
+    color: white;
+}
+.content{
+    text-align: left;
+    margin: 20 25px;
+    color: white;
+}
+/**/
+.pagebutton{
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    margin: auto;
+    display: flexbox;
+    padding: 10px;
+    
+}
+.pagebgeneral{
+    display: inline;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: gray;
+}
+.changepage{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(83, 83, 83);
+    padding: 7px 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 2px;
+    height: 2px;
+}
+.changepage:hover{
+    background-color: rgb(189, 189, 189);
+    color: rgb(56, 56, 56);
+}
+.footer{
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+    padding-top: 70px;
+    height: 110px;
+    margin-top: 15px;
+    display: inline-block;
+    z-index: -1;
+}
+.copyright{
+    margin-top: 0px;
+    padding: 0;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: lighter;
+    margin-left: 5px;
+}

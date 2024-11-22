@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+                    
+    font-family: courier;
+    color: lime;
+    background-color: black;
+    width: 100%; 
+    display: flex;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.backgroundbanner{
+    background: url(web\ banner.png) no-repeat center;
+
+}
+img.banner{
+    margin: 0;
+    align-content: center;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: rgb(22, 22, 22);
+    height: 145px;
+}
+.flaky{
+    width: 100%;
+    height: 80px;
+    padding-top: 0px;
+    font-family: helvetica;
+    letter-spacing: 1px;
+    font-size: 46px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: 700;
+    
+}
+#dflogo{
+    width: 100px;
+    height: 120px;
+    padding-top: 40px;
+    display: inline-block;
+}
+/*Menus*/
+li.menu{
+    background-color: black;
+    display: block;
+    border-top: solid 2px white;
+    z-index: 1;
+
+}
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    overflow: none;
+    margin: 0;
+    margin-top: 0;
+    text-align: center;
+    
+}
+/*general*/
+li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 2px;
+    border-radius: 1px;
+    
+}
+li a:hover {
+    color: black;
+    background-color: white;
+}
+li a:active{
+    background-color: gray;
+    color: rgb(54, 54, 54);
+}
+li a.current{
+    background-color: rgb(129, 129, 129);
+    color: black;
+}
+/**/
+/*other*/
+li a.other{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 0;
+    z-index: 2;
+    font-size: 34px;
+    
+}
+li .other:hover{
+    background: url();
+    color: black;
+    background-color: white;
+}
+li .other:active{
+    background-color: gray;
+    color: rgb(54, 54, 54);
+}
+/**/
+.dropdown{
+    display: none;
+    position: relative;
+    z-index: 2;
+    background-color: black;
+
+}
+.menu:hover .dropdown{
+    display: flex;
+    min-width: 10px;
+}
+ul.menu-def{
+    list-style-type: none;
+    padding: 0;
+    overflow: none;
+    margin: 0;
+    display: block;
+}
+/*Menus*/
+
+/*article*/
+.article{
+    margin: auto;
+    margin-top: 54px;
+    background-color: rgb(83, 83, 83);
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px;
+    margin: 200px 30px;
+    align-content: center;
+    z-index: -1;
+    
+    
+}
+
+.titlediv{
+
+    margin-top: 100px;
+    background-color: rgb(83, 83, 83);
+    display: block;
+    border-radius: 3px;
+    padding: 2px 75px;
+    margin: 10px 30px;
+    color: white;
+    text-align: center;
+    border-bottom: 1.7px solid rgb(44, 44, 44);
+    align-content: center;
+    
+}
+.title{
+    padding: 5px 75px;
+    margin-top: 40px;
+    text-align: center;
+    color: white; 
+    top: 232px;
+    background-color: rgb(41, 41, 41);
+    border-bottom: 1px solid white;
+}
+.subtitle{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 18px 15px;
+}
+.content{
+    text-align: center;
+    margin: 2px 1px;
+    color: white;
+    display: block;
+    background-color: rgb(32, 32, 32);
+    width: 340px;
+    
+    
+    
+}
+.story{
+    margin: 40px 15px;
+    padding: 20px 0;
+    
+}
+/**/
+
+
+.pagebutton{
+    text-align: center;
+    position: sticky;
+    bottom: 5pt;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    
+}
+.pagebgeneral{
+    display: inline-block;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    background-color: gray;
+}
+.changepage{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(83, 83, 83);
+    padding: 7px 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 2px;
+    height: 2px;
+}
+.changepage:hover{
+    background-color: rgb(189, 189, 189);
+    color: rgb(56, 56, 56);
+}
+/*pc display*/
+
+a.pc{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: block;
+}
+.pc:hover{
+    color: black;
+    background-color: white;
+
+}
+a.pc:active{
+    color: black;
+    background-color: gray;
+}
+
+p.tooltip{
+    color: black;
+    background-color: gray;
+    padding: 40px 10px;
+}
+
+.footer{
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+    padding-top: 70px;
+    width: 100%;
+    margin-top: 15px;
+    display: inline-block;
+    z-index: -1;
+}
+.copyright{
+    margin-top: 0px;
+    padding: 0;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: lighter;
+}
+/**/
+@media screen and (max-width: 700px){
+    
+    a.pc{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .story{
+        text-align: left;
+    }
+    .menu-def{
+        text-align: center;
+    }
+    .changepage{
+        width: 30px;
+        height: 30px;
+    }
+    .pagebgeneral{
+        
+        padding: 5px 10px;
+    }
+}
